@@ -1,0 +1,61 @@
+﻿body 
+{
+    background-image: url(/images/back2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.nav
+{
+    background-color:red;
+    float: left;
+    width:100%;
+}
+
+ul > li 
+{
+    display: inline;
+}
+
+ul
+{
+    border:none;
+    display:inline;
+    list-style: none;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-right: solid 1px black;
+}
+
+
+.form
+{
+    display:inline-block;
+    float:right;
+    
+}
+
+.textbox{
+    width: 75px;
+}
+
+.bton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-right: solid 1px black;
+}
