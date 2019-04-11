@@ -3,6 +3,7 @@
     background-image: url(/images/back2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
+    color:white;
 }
 
 .nav {
@@ -55,6 +56,10 @@ button:hover {
     border: solid 1px #33005b;
     margin-right:6px;
     border-left:none;
+}
+
+#textbox {
+    width: 85px;
 }
 
 .user {
