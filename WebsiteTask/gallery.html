@@ -2,17 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Components</title>
-    <link href="styles/styles.css" rel="stylesheet" />
-    <link href="styles/dropdown.css" rel="stylesheet" />
+    <title>Gallery</title>
     <script src="scripts/sidenav.js"></script>
-    <link href="styles/sidenav.css" rel="stylesheet" />
-    <script src="scripts/modal.js"></script>
-    <link href="styles/modal.css" rel="stylesheet" />
+    <link href="styles/dropdown.css" rel="stylesheet" />
     <link href="styles/imgbtn.css" rel="stylesheet" />
-
+    <link href="styles/sidenav.css" rel="stylesheet" />
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/imglayout.css" rel="stylesheet" />
+    <script src="scripts/images.js"></script>
 </head>
-<body>
+<body class="body">
     <header>
 
         <div id="main">
@@ -20,7 +19,6 @@
                 <ul class="ul">
 
                     <li><a href="index.html"><button class="btn" style="border-left:solid 1px black;">Home</button></a></li>
-                    <li><a href="Components.html"><button class="btn">Components</button></a></li>
                     <div style="display:inline-block;" class="dropdown">
                         <li><button class="btn" id="dropbtn">News</button></li>
                         <div class="dropdown-content">
@@ -29,9 +27,7 @@
                             <a href="Intel.html">Intel</a>
                         </div>
                     </div>
-                    <li>
-                        <a href="gallery.html"><button class="btn">Gallery</button></a>
-                    </li>
+                    <li><button class="btn">Gallery</button></li>
                     <li><a href="contact.html"><button class="btn">Contact Us</button></a></li>
                 </ul>
 
@@ -57,16 +53,45 @@
         <a href="#">RAM</a>
         <a href="#">Motherboard</a>
     </div>
-    <span onclick="openNav()"><button>open</button></span>
+
 
     <div id="myModal" class="modal">
 
         <div class="modal-content">
             <span class="close">&times;</span>
-            <form>dfhjhnshsgnsjnfbdfndsfsbsrnrbsfbvbrthrfgnr</form>
+            <form></form>
         </div>
 
     </div>
+    `
+    <div class="row">
+        <div class="column">
+            <img src="/images/1.jpg" style="width:100%">
+            <img src="/images/5.jpg" style="width:100%">
+            <img src="/images/9.png" style="width:100%">
+
+
+        </div>
+        <div class="column">
+            <img src="/images/2.jpg" style="width:100%">
+            <img src="/images/6.jpg" style="width:100%">
+            <img src="/images/10.jpg" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="/images/3.jpg" style="width:100%">
+            <img src="/images/7.jpg" style="width:100%">
+            <img src="/images/11.jpg" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="/images/4.jpg" style="width:100%">
+            <img src="/images/8.png" style="width:100%">
+            <img src="/images/12.jpg" style="width:100%">
+
+        </div>
+    </div>
+    
     <footer>
         <nav class="botnav">
             <a href="https://www.facebook.com/" target="_blank">
@@ -89,4 +114,6 @@
         </nav>
     </footer>
 </body>
+   
+
 </html>

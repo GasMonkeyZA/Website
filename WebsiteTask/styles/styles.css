@@ -1,16 +1,37 @@
-﻿body 
-{
+﻿body {
     background-image: url(/images/back2.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .nav {
     background-color:#33005b;
     float: left;
     width: 100%;
-    border-radius:10px 10px;
+    position: fixed;
+    top:0;
+    left:0;
+    
+}
+
+.botnav {
+    background-color: #33005b;
+    float: left;
+    width: 100%;    
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
 }
 
 ul > li 
@@ -94,6 +115,9 @@ button:hover {
     margin-right: 10px;
 }
 
-.vid{
-    margin:50%;
+.p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Open Sans",sans-serif;
+    padding: 10px 10px 10px 10px;
 }

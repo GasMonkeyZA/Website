@@ -81,11 +81,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Components.html" />
+    <Content Include="contact.html" />
+    <Content Include="gallery.html" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="AMD.html" />
+    <Content Include="Intel.html" />
+    <Content Include="Nvidia.html" />
+    <Content Include="scripts\images.js" />
     <Content Include="scripts\modal.js" />
     <Content Include="scripts\sidenav.js" />
+    <Content Include="styles\contact.css" />
     <Content Include="styles\dropdown.css" />
+    <Content Include="styles\imgbtn.css" />
+    <Content Include="styles\imglayout.css" />
     <Content Include="styles\modal.css" />
     <Content Include="styles\sidenav.css" />
     <Content Include="styles\styles.css" />

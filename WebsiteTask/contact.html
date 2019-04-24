@@ -8,6 +8,7 @@
     <link href="styles/sidenav.css" rel="stylesheet" />
     <link href="styles/modal.css" rel="stylesheet" />
     <link href="styles/imgbtn.css" rel="stylesheet" />
+    <link href="styles/contact.css" rel="stylesheet" />
     <script src="scripts/modal.js"></script>
 
 </head>
@@ -17,7 +18,8 @@
         <nav class="nav">
             <ul class="ul">
 
-                <li><button class="btn" style="border-left:solid 1px black;">Home</button></li>
+                <li><a href="index.html"><button class="btn" style="border-left:solid 1px black;">Home</button></a>
+                </li>
                 <div style="display:inline-block;" class="dropdown">
                     <li><button class="btn" id="dropbtn">News</button></li>
                     <div class="dropdown-content">
@@ -26,8 +28,10 @@
                         <a href="Intel.html">Intel</a>
                     </div>
                 </div>
-                <li><a href="gallery.html"><button class="btn">Gallery</button></a></li>
-                <li><a href="contact.html"><button class="btn">Contact Us</button></a></li>
+                <li>
+                    <a href="gallery.html"><button class="btn">Gallery</button></a>
+                </li>
+                <li><button class="btn">Contact Us</button></li>
             </ul>
 
             <form class="form">
@@ -42,31 +46,34 @@
             </form>
 
         </nav>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <h2>Modal Header</h2>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
-                </div>
-                <div class="modal-footer">
-                    <h3>Modal Footer</h3>
-                </div>
-            </div>
-        </div>
+
     </header>
-    <br>
-    <br>
-    <br>
-    <h1>How Not to Build a PC</h1>
 
-    <div class="vid">
-        <iframe width="700" height="500" src="https://www.youtube.com/embed/6_6hGc1A3Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <form  action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input class="input" type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input class="input" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">South Africa</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="england">England</option>
+                <option value="china">China</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input class="input" type="reset" value="Submit">
+
+        </form>
     </div>
-
 
     <footer>
         <nav class="botnav">
